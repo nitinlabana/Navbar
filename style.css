@@ -1,0 +1,36 @@
+.container-fluid{
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav{
+    width: 1000px;
+    height: 60px;
+    border-radius: 10px;
+}
+img{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    left: -12px;
+    
+}
+a.nav-link.active{
+padding-right: 0.5rem;
+padding-left: 5.5rem;
+}
+#navbarSupportedContent{
+    margin-left: 120px;
+}
+.nav-item{
+    padding: 20px;
+}
+.d-flex{
+    height: 40px;
+}
+a{
+    font-weight: bold;
+}
